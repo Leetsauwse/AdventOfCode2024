@@ -6,8 +6,10 @@ My first year at doing the Advent of Code. All solutions will be posted in here.
 
 ### Run a specific day:
 
-`deno task day 1    # Runs day1.ts`
-`deno task day 2    # Runs day2.ts`
+```
+deno task day 1    # Runs day1.ts
+deno task day 2    # Runs day2.ts
+```
 
 ### Run all available solutions:
 
