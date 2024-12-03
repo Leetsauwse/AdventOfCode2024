@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "day": "deno run --allow-read day$1.ts",
+    "all": "for i in {1..25}; do if [ -f day$i.ts ]; then echo \"Day $i:\"; deno run --allow-read day$i.ts; fi; done",
+    "new": "deno run --allow-read --allow-write scripts/new_day.ts"
+  },
+  "imports": {
+    "@/": "./",
+    "@utils/": "./utils/"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "lib": ["deno.window"]
+  }
+}
