@@ -55,30 +55,6 @@ async function part1(input: string[]): Promise<number> {
 }
 
 // Part 2
-function checkMASPattern(
-  grid: string[],
-  row: number,
-  col: number,
-  dRow: number,
-  dCol: number,
-  forward: boolean
-): boolean {
-  const word = forward ? "MAS" : "SAM";
-  
-  if (!isValidPosition(grid, row + dRow * 2, col + dCol * 2)) {
-    return false;
-  }
-  
-  for (let i = 0; i < 3; i++) {
-    const newRow = row + dRow * i;
-    const newCol = col + dCol * i;
-    if (grid[newRow][newCol] !== word[i]) {
-      return false;
-    }
-  }
-  
-  return true;
-}
 
 function checkXMASPattern(grid: string[], row: number, col: number): boolean {
   if (grid[row][col] !== 'A') {
