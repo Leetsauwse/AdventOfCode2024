@@ -7,13 +7,11 @@ My first year at doing the Advent of Code. All solutions will be posted in here.
 ### Run a specific day:
 
 ```
-deno task day 1    # Runs day1.ts
-deno task day 2    # Runs day2.ts
+deno task day1    # Runs day1.ts
+deno task day2    # Runs day2.ts
 ```
+*note I originally thought I had a more elegant solution to this, will be working to return it back to something that doesn't require 24 individual lines in the deno.json file*
 
-### Run all available solutions:
-
-`deno task all`
 
 ### Create a new day's file:
 
