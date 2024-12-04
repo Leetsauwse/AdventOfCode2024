@@ -2,7 +2,7 @@
  * Reads puzzle input from a file and returns it as a string
  */
 export async function readInput(day: number): Promise<string> {
-    const input = await Deno.readTextFile(`./puzzleAssets/puzzleDay${day}.txt`);
+    const input = await Deno.readTextFile(`./inputs/day${day}.txt`);
     return input.trim();
   }
   
