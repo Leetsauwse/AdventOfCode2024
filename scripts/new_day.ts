@@ -31,7 +31,7 @@ if (import.meta.main) {
 export { part1, part2 };`;
 
 const day = Deno.args[0] || new Date().getDate().toString();
-const filename = `day${day}.ts`;
+const filename = `src/day${day}.ts`;
 
 // Create new day file if it doesn't exist
 if (!await exists(filename)) {
