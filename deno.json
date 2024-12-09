@@ -6,6 +6,8 @@
     "day4": "deno run --allow-read src/day4.ts",
     "day5": "deno run --allow-read src/day5.ts",
     "day6": "deno run --allow-read src/day6.ts",
+    "day7": "deno run --allow-read src/day7.ts",
+    "day8": "deno run --allow-read src/day8.ts",
     "new": "deno run --allow-read --allow-write scripts/new_day.ts"
   },
   "imports": {
